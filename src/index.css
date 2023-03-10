@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.light-mode{
+  --primary-color : #fff; 
+  --secondary-color : #000; 
+  --accent-color : #7E60D0;
+}
+
+
+*{
+  margin : 0; 
+  padding : 0; 
+  box-sizing : border-box; 
+}
+
+
+.brand{
+  color: var(--accent-color);
+}
+
+.hero-image{
+  margin-top : -136px; 
+  padding-left: 10px;
+  overflow: hidden;
+}
