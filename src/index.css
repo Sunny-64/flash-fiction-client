@@ -3,18 +3,29 @@
 @tailwind utilities;
 
 .light-mode{
+  --text-color : #000; 
   --primary-color : #fff; 
   --secondary-color : #000; 
   --accent-color : #7E60D0;
 }
 
+.dark-mode{
+  --text-color : #fff; 
+  --primary-color : #171717; 
+  --secondary-color : #fff;
+  --accent-color : #7E60D0
+}
 
 *{
   margin : 0; 
   padding : 0; 
   box-sizing : border-box; 
+  color: var(--text-color);
 }
 
+body{
+  background-color: var(--primary-color);
+}
 
 .brand{
   color: var(--accent-color);
