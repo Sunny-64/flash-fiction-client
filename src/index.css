@@ -20,8 +20,23 @@
   color: var(--accent-color);
 }
 
+.highlight{
+  color: var(--accent-color);
+}
+
 .hero-image{
-  margin-top : -136px; 
-  padding-left: 10px;
+  margin-top : -20px; 
   overflow: hidden;
+}
+
+
+/* utils */
+.btn{
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+}
+
+.btn-bordered{
+  border: 2px solid var(--accent-color);
+  color : var(--secondary-color); 
 }

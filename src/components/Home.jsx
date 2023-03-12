@@ -5,7 +5,6 @@ import Hero from '../component/Hero'
 function Home() {
     return (
         <div className="w-full">
-            <Navbar />
             <Hero />
         </div>
     )
