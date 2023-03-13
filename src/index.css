@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+#root{
+  height : 100%; 
+  position: static;
+}
+
 .light-mode{
   --text-color : #000; 
   --primary-color : #fff; 
@@ -25,6 +30,7 @@
 
 body{
   background-color: var(--primary-color);
+  height: 100%;
 }
 
 .brand{
@@ -40,6 +46,29 @@ body{
   overflow: hidden;
 }
 
+/* register form */
+
+.register-card{
+  background-color: var(--primary-color);
+}
+
+.register input{
+  border : 1px solid var(--secondary-color); 
+  background: var(--primary-color);
+  color : var(--text-color)
+}
+
+.input-border{
+  border : 1px solid var(--secondary-color); 
+  background: var(--primary-color);
+  color : var(--text-color)
+}
+.myclass{
+  min-height:550px;
+}
+
+/* footer */
+
 
 /* utils */
 .btn{
@@ -50,4 +79,8 @@ body{
 .btn-bordered{
   border: 2px solid var(--accent-color);
   color : var(--secondary-color); 
+}
+
+.no-border{
+  border: none !important;
 }
